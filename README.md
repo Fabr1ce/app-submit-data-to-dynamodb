@@ -7,3 +7,5 @@ This repo builds and deploys the resources and code needed for a nodejs applicat
 To create the main.js, use
 
     ../../node_modules/.bin/webpack  ./add_data.js --mode development --target web --devtool false -o main.js
+
+To clean up, go to the AWS console CloudFormation, search for the stack created by setup.yaml and choose Delete.
